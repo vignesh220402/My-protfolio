@@ -424,9 +424,9 @@ body {
     transition: transform 0.5s;
 }
 .assemble{
+    position: relative;
     display: flex;
     justify-content:space-around;
-    align-items: center;
     flex-wrap: wrap;
 }
 .assemble .slant{
@@ -627,6 +627,13 @@ input::placeholder{
     }
     .division1 h4{
         font-size: 14px;
+    }
+    .mainpro {
+        border-top-left-radius: 10%;
+        border-top-right-radius:10%;
+    }
+    .assemble{
+        left: -50px;
     }
 
 }
