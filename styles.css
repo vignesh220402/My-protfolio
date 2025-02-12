@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(20, 52, 128);
+}
+.navbar{
+    background-image: url(images/Designer\ \(17\).png);
+    backdrop-filter: blur(50px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.book-container{
+    margin: 10px;
+    background-color: green;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 500px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(images/Designer\ \(17\).png);
+}
+.book-container button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
+.book-container h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: white;
+}
+.book-container p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: rgba(128, 128, 128, 0.519);
+}
+.book-container h5{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 7px;
+    color: white;
+}
+.add-button{
+    padding: 20px;
+    border: none;
+    background-color: pink;
+    font-size: 20px;
+    border-radius: 100%;
+    margin-left: 50%;
+    background-color: rgb(11, 11, 77);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    color: red;
+    transition: transform 0.5s;
+}
+.add-button:hover{
+    transform: translateY(-8px);
+    box-shadow: rgba(3, 135, 243, 0.862) 0px 54px 55px, rgba(7, 193, 255, 0.763) 0px -12px 30px, rgba(6, 138, 233, 0.889) 0px 4px 6px, rgba(0, 0, 0, 0.911) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.popup-box{
+    background-image: url(images/Designer\ \(15\).png);
+    height:400px;
+    position: relative;
+    top: -150px;
+    border-radius: 20px;
+    width: 500px;
+    padding: 11px;
+    display: none;
+}
+.popup-box form{
+    display: flex;
+    flex-direction: column;
+}
+.popup-box form input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+.popup-box textarea{
+    margin: 10px;
+    height: 100px;
+}
+#add-book{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#cancle-popup{
+    margin: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.popup-box h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin: 10px;
+}
+#book-title-input{
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.46);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+input::placeholder{
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#book-author-input{
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.46);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#book-description-input{
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.46);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+textarea::placeholder{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#add-book {
+    color:white;
+    margin-left: 10px;
+    background-image: url(images/Designer\ \(18\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 1000;
+}
+#cancle-popup{
+    color:white;
+    background-image: url(images/Designer\ \(18\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 1000;
+}
+input{
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    outline: none;
+}
+textarea{
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+.myaddition button{
+    margin-right: 200px;
+}
+.delbtn{
+    background-position: center;
+}
