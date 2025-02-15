@@ -65,7 +65,7 @@ body{
     background-color: pink;
     font-size: 20px;
     border-radius: 100%;
-    margin-left: 50%;
+    margin-left: 43%;
     background-color: rgb(11, 11, 77);
     background-position: center;
     background-repeat: no-repeat;
@@ -73,6 +73,7 @@ body{
     margin-right: 10px;
     color: red;
     transition: transform 0.5s;
+
 }
 .add-button:hover{
     transform: translateY(-8px);
